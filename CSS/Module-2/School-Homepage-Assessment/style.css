@@ -1,0 +1,152 @@
+/* General setup */
+
+@font-face {
+    font-family: 'source_code_promedium';
+    src: url('fonts/sourcecodepro-medium-webfont.woff2') format('woff2'),
+         url('fonts/sourcecodepro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1, h2 {
+  font-family: 'open_sansbold';
+}
+
+body nav ul a{
+  outline: none;
+  border: 1px solid #a66;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+  line-height: 4;
+  color: brown;
+  font-size: 2rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+body p, body ul, body ol{
+  font-family: 'source_code_promedium';
+  font-size: 1.5em;
+  word-spacing: 0.4rem;
+}
+
+header h1{
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-size: 4em;
+}
+body h2{
+  font-size: 2.7em;
+}
+
+body a{
+  color: brown;
+  text-decoration: underline;
+}
+
+body a:hover{
+  color: green;
+  text-decoration: none;
+}
+
+body a:visited {
+color: brown;
+text-decoration: none;
+}
+
+body a:active{
+  color: brown;
+  background-color: lightgreen;
+  text-decoration: none;
+}
+
+body a:focus{
+  color: blue;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+a[href*="http"] {
+  background: url('icon.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
